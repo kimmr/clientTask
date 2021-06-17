@@ -82,15 +82,8 @@ using CustomerList.Models;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "/Users/megry/Development/CustomerList/CustomerList/Pages/FetchData.razor"
-using CustomerList.Data;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/TaskList")]
+    public partial class TaskList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,19 +91,28 @@ using CustomerList.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "/Users/megry/Development/CustomerList/CustomerList/Pages/FetchData.razor"
+#line 41 "/Users/megry/Development/CustomerList/CustomerList/Pages/TaskList.razor"
        
-    private WeatherForecast[] forecasts;
+    public List<TaskModel> taskList = new List<TaskModel>();
+    private TaskModel newTask = new TaskModel();
 
-    protected override async Task OnInitializedAsync()
+    private int percentDone
     {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        get
+        {
+            return (taskList.Count(x => x.IsComplete) * 100) / taskList.Count;
+        }
+    }
+
+    private void AddTask()
+    {
+        taskList.Add(newTask);
+        newTask = new TaskModel();
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private WeatherForecastService ForecastService { get; set; }
     }
 }
 #pragma warning restore 1591

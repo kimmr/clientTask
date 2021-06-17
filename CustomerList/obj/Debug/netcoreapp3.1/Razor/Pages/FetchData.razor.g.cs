@@ -73,6 +73,13 @@ using CustomerList.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "/Users/megry/Development/CustomerList/CustomerList/_Imports.razor"
+using CustomerList.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "/Users/megry/Development/CustomerList/CustomerList/Pages/FetchData.razor"
 using CustomerList.Data;
 

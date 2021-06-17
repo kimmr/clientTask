@@ -72,6 +72,13 @@ using CustomerList.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/Users/megry/Development/CustomerList/CustomerList/_Imports.razor"
+using CustomerList.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

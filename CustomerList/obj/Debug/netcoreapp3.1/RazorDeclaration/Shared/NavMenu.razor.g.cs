@@ -75,6 +75,13 @@ using CustomerList.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/Users/megry/Development/CustomerList/CustomerList/_Imports.razor"
+using CustomerList.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -83,7 +90,7 @@ using CustomerList.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "/Users/megry/Development/CustomerList/CustomerList/Shared/NavMenu.razor"
+#line 38 "/Users/megry/Development/CustomerList/CustomerList/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

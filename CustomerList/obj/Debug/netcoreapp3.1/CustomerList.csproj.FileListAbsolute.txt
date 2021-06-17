@@ -66,3 +66,5 @@
 /Users/megry/Development/CustomerList/CustomerList/bin/Debug/netcoreapp3.1/DataAccessLib.pdb
 /Users/megry/Development/CustomerList/CustomerList/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/ClientPages/Client.razor.g.cs
 /Users/megry/Development/CustomerList/CustomerList/obj/Debug/netcoreapp3.1/Razor/Pages/ClientPages/Client.razor.g.cs
+/Users/megry/Development/CustomerList/CustomerList/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TaskList.razor.g.cs
+/Users/megry/Development/CustomerList/CustomerList/obj/Debug/netcoreapp3.1/Razor/Pages/TaskList.razor.g.cs

@@ -1,37 +1,44 @@
 ﻿<Properties StartupConfiguration="{64ED1CAA-25BD-4FEF-B9F3-E7CB4245C413}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLib/ClientData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerList/Pages/TaskList.razor">
     <Files>
       <File FileName="CustomerList/Startup.cs" Line="29" Column="10" />
       <File FileName="CustomerList/App.razor" Line="1" Column="1" />
       <File FileName="CustomerList/Pages/Counter.razor" Line="10" Column="11" />
       <File FileName="CustomerList/appsettings.json" Line="11" Column="52" />
       <File FileName="CustomerList/Program.cs" Line="18" Column="1" />
-      <File FileName="CustomerList/Pages/ClientPages/Client.razor" Line="75" Column="26" />
-      <File FileName="CustomerList/Shared/NavMenu.razor" Line="31" Column="7" />
+      <File FileName="CustomerList/Pages/ClientPages/Client.razor" Line="34" Column="16" />
       <File FileName="CustomerList/Models/DisplayClientModel.cs" Line="21" Column="22" />
-      <File FileName="DataAccessLib/Models/ClientModel.cs" Line="12" Column="1" />
-      <File FileName="DataAccessLib/IClientData.cs" Line="1" Column="1" />
-      <File FileName="DataAccessLib/ClientData.cs" Line="1" Column="1" />
+      <File FileName="DataAccessLib/Models/ClientModel.cs" />
+      <File FileName="DataAccessLib/IClientData.cs" />
+      <File FileName="DataAccessLib/ClientData.cs" />
+      <File FileName="CustomerList/Pages/TaskList.razor" Line="25" Column="35" />
+      <File FileName="CustomerList/Models/TaskModel.cs" Line="1" Column="1" />
+      <File FileName="CustomerList/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="CustomerList/Pages/FetchData.razor" Line="1" Column="1" />
+      <File FileName="CustomerList/Pages/Error.cshtml" Line="1" Column="1" />
+      <File FileName="CustomerList/Pages/_Host.cshtml" Line="1" Column="1" />
+      <File FileName="CustomerList/_Imports.razor" Line="1" Column="1" />
+      <File FileName="CustomerList/Shared/NavMenu.razor" Line="26" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomerList" expanded="True">
             <Node name="CustomerList" expanded="True">
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="ClientPages" expanded="True" />
+                <Node name="TaskList.razor" selected="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Shared" expanded="True" />
             </Node>
             <Node name="DataAccessLib" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="ClientData.cs" selected="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
