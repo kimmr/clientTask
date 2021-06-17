@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/megry/Development/CustomerList/CustomerList/CustomerList.csproj": {}
+  },
+  "projects": {
+    "/Users/megry/Development/CustomerList/CustomerList/CustomerList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/megry/Development/CustomerList/CustomerList/CustomerList.csproj",
+        "projectName": "CustomerList",
+        "projectPath": "/Users/megry/Development/CustomerList/CustomerList/CustomerList.csproj",
+        "packagesPath": "/Users/megry/.nuget/packages/",
+        "outputPath": "/Users/megry/Development/CustomerList/CustomerList/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/megry/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/megry/Development/CustomerList/DataAccessLib/DataAccessLib.csproj": {
+                "projectPath": "/Users/megry/Development/CustomerList/DataAccessLib/DataAccessLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DataAccessLibrary": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/megry/Development/CustomerList/DataAccessLib/DataAccessLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/megry/Development/CustomerList/DataAccessLib/DataAccessLib.csproj",
+        "projectName": "DataAccessLib",
+        "projectPath": "/Users/megry/Development/CustomerList/DataAccessLib/DataAccessLib.csproj",
+        "packagesPath": "/Users/megry/.nuget/packages/",
+        "outputPath": "/Users/megry/Development/CustomerList/DataAccessLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/megry/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+﻿@page "/Data/Client"
+
+@using DataAccessLib
+@using DataAccessLib.Models
+@using CustomerList.Models
+
+@inject IClientData db
+
+<h1>Clinet Page</h1>
+
+<h4>Add New Client</h4>
+<EditForm Model="@newClient" OnValidSubmit="@AddClient">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="firstName" @bind-Value="newClient.FirstName" />
+    <InputText id="lastName" @bind-Value="newClient.LastName" />
+    <InputText id="email" @bind-Value="newClient.Email" />
+    <InputText id="phoneNumber" @bind-Value="newClient.PhoneNumber" />
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</EditForm>
+
+
+<h4>Current Client</h4>
+
+@if (client is null)
+{
+    <p><em>Loading client data...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var aClient in client)
+            {
+            <tr>
+                <td>@aClient.FirstName</td>
+                <td>@aClient.LastName</td>
+                <td>@aClient.Email</td>
+                <td>@aClient.PhoneNumber</td>
+            </tr>
+            }
+        </tbody>
+
+    </table>
+}
+@code {
+    private List<ClientModel> client;
+    private DisplayClientModel newClient = new DisplayClientModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        client = await this.db.GetClient();
+    }
+
+    private async Task AddClient()
+    {
+        ClientModel c = new ClientModel
+        {
+            FirstName = newClient.FirstName,
+            LastName = newClient.LastName,
+            Email = newClient.Email,
+            PhoneNumber = newClient.PhoneNumber
+        };
+
+
+        await db.InsertClient(c);
+        client.Add(c);
+
+    }
+}

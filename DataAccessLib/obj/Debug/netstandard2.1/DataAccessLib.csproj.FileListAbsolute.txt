@@ -1,0 +1,9 @@
+/Users/megry/Development/CustomerList/DataAccessLib/bin/Debug/netstandard2.1/DataAccessLib.deps.json
+/Users/megry/Development/CustomerList/DataAccessLib/bin/Debug/netstandard2.1/DataAccessLib.dll
+/Users/megry/Development/CustomerList/DataAccessLib/bin/Debug/netstandard2.1/DataAccessLib.pdb
+/Users/megry/Development/CustomerList/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.csproj.AssemblyReference.cache
+/Users/megry/Development/CustomerList/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.AssemblyInfoInputs.cache
+/Users/megry/Development/CustomerList/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.AssemblyInfo.cs
+/Users/megry/Development/CustomerList/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.csproj.CoreCompileInputs.cache
+/Users/megry/Development/CustomerList/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.dll
+/Users/megry/Development/CustomerList/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.pdb

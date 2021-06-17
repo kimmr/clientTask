@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/megry/.dotnet/store/|arch|/|tfm|",
+      "/Users/megry/.nuget/packages"
+    ]
+  }
+}
